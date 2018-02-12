@@ -1,23 +1,23 @@
 function set(){
 calculateLast();
-$("total").innerHTML = calculateLast();
+document.getElementById("total").innerHTML = calculateLast();
 
 }
 function set1(){
 
 	calculate();
-	$("result").innerHTML = calculate();
+	document.getElementById("result").innerHTML = calculate();
 }
 
 function set2(){
 	calculateNext();
-	$("result1").innerHTML =calculateNext() ;
+	document.getElementById("result1").innerHTML =calculateNext() ;
 
 }
 
 function set3(){
 	calculateFirst();
-	$("result2").innerHTML = calculateFirst();
+	document.getElementById("result2").innerHTML = calculateFirst();
 }
 
 
